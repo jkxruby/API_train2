@@ -1,5 +1,5 @@
 class ApiController < ActionController::Base
-  before_action :authencate_user_form_token!
+  before_action :authenticate_user_from_token!
 
   def authenticate_user_from_token!
 
@@ -10,5 +10,5 @@ class ApiController < ActionController::Base
       sign_in(user, store: false) if user
     end
   end
-  
+
 end
