@@ -38,6 +38,9 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'rest-client'
 gem 'devise'
+gem 'carrierwave'
+gem 'mini_magick'
+
 
 
 
